@@ -6,6 +6,7 @@ import base64
 from time import sleep
 import threading
 
+
 host_name = os.getlogin()
 
 HOST = socket._LOCALHOST  # non-local => changer socket._LOCALHOST en votre ip 
